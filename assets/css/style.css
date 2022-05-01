@@ -8,6 +8,7 @@
 }
 
 
+
 body {
     font-family: Playfair Display, Source Sans;
     font-weight: 300;
@@ -18,19 +19,48 @@ h1, h2 {
     font-family: Playfair Display, Source Sans;
     letter-spacing: 3px;
     color: rgb(53, 53, 53);
+    
+
 }
 
 #logo {
     float: left;
     font-size: 50px;
+    line-height: 75px;
 }
+
 
 #navbar {
     font-size: 25px;
     letter-spacing: 3px;
+    line-height: 75px;
 }
 
 #navbar li {
     float: right;
     list-style-type: none;
+    margin-right: 30px;
 }
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid rgb(53, 53, 53);
+}
+
+.active {
+    border-bottom: 1px solid rgb(53, 53, 53);
+}
+
+#background-image {
+    height: 600px;
+    width: 100%;
+   background-image: url(../images/forest-background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+  }
