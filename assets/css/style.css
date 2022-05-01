@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    border: none;
+}
+
+
+body {
+    font-family: Playfair Display, Source Sans;
+    font-weight: 300;
+    color: rgb(53, 53, 53);
+}
+
+h1, h2 {
+    font-family: Playfair Display, Source Sans;
+    letter-spacing: 3px;
+    color: rgb(53, 53, 53);
+}
+
+#logo {
+    float: left;
+    font-size: 50px;
+}
+
+#navbar {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+}
