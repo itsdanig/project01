@@ -56,14 +56,6 @@ h1, h2 {
 }
 
 
-#image-wrapper {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-   
-}
-
 
 
 #background-image {
@@ -90,21 +82,22 @@ h1, h2 {
       padding-left: 10px;
       background-color: rgb(249,246,239);
       top: 50px;
-      left: 29%;
+      left: 25%;
       position:absolute;
       align-items: center;
       text-align: center;
       margin: 30px;
       border: 1px solid white;
+      opacity: 0.6;
 
       
   }
 
 #welcome-text p {
     margin: 5%;
-    font-weight: light;
+    font-weight: bolder;
     color: rgb(53, 53, 53);
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
