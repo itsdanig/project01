@@ -305,7 +305,7 @@ object-fit: cover;
 }
 
 .contact-form h1 {
-    font-size: 65px;
+    font-size: 5px;
     color: rgb(106, 72, 92);
     margin-bottom: 20px
 }
@@ -357,5 +357,41 @@ object-fit: cover;
     border: 2px solid rgb(106, 72, 92);
     background: transparent;
     transform: scale(1.1);
+
+}
+
+.socials-menu{
+    text-align: center;
+    display:block;
+    position: relative;
+    font-size: 150%;
+    color: rgb(7, 6, 6);
+    bottom: 100%;
+
+}
+
+.socials-menu i {
+    font-size: 150%;
+    color: rgb(23, 21, 21);
+    bottom: 100%;
+    position: relative;
+}
+
+.socials-menu  ul li a {
+    display: inline;
+    
+    
+}
+
+
+
+#footer {
+    height: 150px;
+    
+    }
+
+
+.socials-menu {
+    text-align: center;
 
 }
