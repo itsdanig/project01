@@ -272,4 +272,40 @@ object-fit: cover;
     margin: 10px 0 0;
     padding: 0;
     color:rgb(233, 230, 225);
+    letter-spacing: 3px;
+}
+
+
+.contact  {
+    padding: 40px 15%;
+    background: rgb(22, 44, 58);
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img {
+    max-width: 100%;
+    width: 720px;
+    height:auto ;
+    border-radius: 10px;
+
+}
+
+.contact-form h1 {
+    font-size: 80px;
+    color: rgb(217, 124, 80);
+    margin-bottom: 20px
+}
+
+.contact-form p {
+    color: rgb(217, 124, 80);
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
 }
