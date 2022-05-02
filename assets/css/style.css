@@ -12,7 +12,7 @@
 body {
     font-family: Playfair Display, Source Sans;
     font-weight: 300;
-    color: rgb(38,25,17);
+   background-color: rgb(249,246,239);
 }
 
 h1, h2 {
@@ -27,6 +27,7 @@ h1, h2 {
     float: left;
     font-size: 50px;
     line-height: 75px;
+    color: rgb(38,25,17);
 }
 
 
@@ -61,7 +62,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-   
+  
 }
 
 
@@ -94,7 +95,7 @@ h1, h2 {
       align-items: center;
       text-align: center;
       margin: 30px;
-      border: 1px solid white;
+      border: 1px solid rgb(22, 44, 58);
       opacity: 0.6;
 
       
@@ -118,6 +119,7 @@ h1, h2 {
     width: 100%;
     padding: 75px 0px;
     background-color: rgb(233, 230, 225);
+   
     
 }
 
@@ -277,35 +279,83 @@ object-fit: cover;
 
 
 .contact  {
-    padding: 40px 15%;
-    background: rgb(22, 44, 58);
+    padding: 35px 15px;
+    background: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 400px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
     align-items: center;
     grid-gap: 6rem;
+    margin-top: 80px;
+    margin-left: 3px;
+    margin-right: 50px;
+    overflow: hidden;
 }
 
 .contact-img {
     max-width: 100%;
     width: 720px;
     height:auto ;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-right: 85px;
+    overflow: hidden;
 
 }
 
 .contact-form h1 {
-    font-size: 80px;
-    color: rgb(217, 124, 80);
+    font-size: 65px;
+    color: rgb(106, 72, 92);
     margin-bottom: 20px
 }
 
 .contact-form p {
-    color: rgb(217, 124, 80);
+    color: rgb(106, 72, 92);
     letter-spacing: 1px;
     line-height: 26px;
     font-size: 1.1rem;
     margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input, form textarea {
+    padding: 17px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 213, 202);
+    color: rgb(53, 53, 53);
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: rgb(48, 96, 126);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid rgb(106, 72, 92);
+    background: transparent;
+    transform: scale(1.1);
+
 }
