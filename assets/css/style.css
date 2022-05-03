@@ -62,7 +62,7 @@ h1, h2 {
 
 #image-wrapper {
     height: 600px;
-    width: 100%;
+    width: 96%;
     overflow: hidden;
     position: relative;
   
@@ -72,7 +72,7 @@ h1, h2 {
 
 #background-image {
     height: 600px;
-    width: 100%;
+    width: 96%;
    background-image: url(../images/yoga-background.jpg);
    background-size: 100% 100%;
    background-repeat: no-repeat;
@@ -118,7 +118,7 @@ h1, h2 {
     }
 
 #about {
-    width: 100%;
+    width: 96%;
     padding: 75px 0px;
     background-color: rgb(233, 230, 225);
    
@@ -182,7 +182,7 @@ button {
     background: rgb(219, 169, 136);
     color: rgb(22, 44, 58);
     text-decoration: none;
-    font-size: 10px;
+    font-size: 50px;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
@@ -227,7 +227,7 @@ button:hover {
 
 transition: transform, 2s;
 height: 330px;
-width: 560px;
+width: 500px;
 margin-left: 45px;
 margin-top: 30px;
 margin-bottom: 0;
@@ -285,7 +285,7 @@ object-fit: cover;
     padding: 35px 15px;
     background: rgb(22, 44, 58);
     height: 100%;
-    width: 100%;
+    width: 96%;
     min-height: 400px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
