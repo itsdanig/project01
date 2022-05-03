@@ -72,7 +72,7 @@ h1, h2 {
 
 #background-image {
     height: 600px;
-    width: 96%;
+    width: 100%;
    background-image: url(../images/yoga-background.jpg);
    background-size: 100% 100%;
    background-repeat: no-repeat;
@@ -127,7 +127,7 @@ h1, h2 {
 
 #about, img {
     height: 400px;
-    max-width: 75%;
+    max-width: 96%;
     display: block;
     margin-top: 40px;
     margin-left: 80px;
@@ -141,7 +141,7 @@ h1, h2 {
 }
 
 #main {
-    width: 1130px;
+    width: 1120px;
     max-width: 95%;
     margin: -45px auto;
     align-items: center;
@@ -154,7 +154,7 @@ h1, h2 {
 
 #about-text, h1 {
     color: rgb(38,25,17);
-    font-size: 28px;
+    font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
@@ -166,7 +166,7 @@ h1, h2 {
     color: rgb(38,25,17);
     font-size: 13px;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     letter-spacing: 3px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -178,7 +178,7 @@ h1, h2 {
     letter-spacing: 2px;
     line-height: 20px;
     font-size: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-family: Source Sans, Playfair Display;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -188,7 +188,7 @@ button {
     background: rgb(219, 169, 136);
     color: rgb(22, 44, 58);
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
@@ -451,6 +451,15 @@ color: rgb(38,25,17);
         width: 90%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    #welcome-text, #welcome-text h2 {
+        width: inherit;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
     }
 }
 
