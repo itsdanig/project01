@@ -4,7 +4,7 @@
 * {
     margin:0;
     padding: 0;
-    border: none;
+   
 }
 
 
@@ -13,6 +13,8 @@ body {
     font-family: Playfair Display, Source Sans;
     font-weight: 300;
    background-color: rgb(249,246,239);
+   overflow-x: hidden;
+overflow-y: scroll;
 }
 
 h1, h2 {
@@ -35,6 +37,7 @@ h1, h2 {
     font-size: 25px;
     letter-spacing: 3px;
     line-height: 75px;
+    
 }
 
 #navbar li {
@@ -71,9 +74,10 @@ h1, h2 {
     height: 600px;
     width: 100%;
    background-image: url(../images/yoga-background.jpg);
-   background-size: 100% 100%;;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
    background-position: center center;
+   
 
   }
 
@@ -89,12 +93,10 @@ h1, h2 {
       padding-top: 40px;
       padding-left: 10px;
       background-color: rgb(249,246,239);
-      top: 50px;
-      left: 25%;
       position:absolute;
       align-items: center;
       text-align: center;
-      margin: 30px;
+      margin: 20px;
       border: 1px solid rgb(22, 44, 58);
       opacity: 0.6;
 
@@ -102,19 +104,18 @@ h1, h2 {
   }
 
 #welcome-text p {
-    margin: 5%;
+    margin: 2%;
     font-weight: bolder;
     color: rgb(53, 53, 53);
-    font-size: 80px;
-    line-height: 10px;
+    font-size: 30px;
+
 }
 
 
   #welcome-wrapper {
     background: rgb(53, 53, 53);
     border: 2px solid white;
-    
-}
+    }
 
 #about {
     width: 100%;
@@ -126,12 +127,13 @@ h1, h2 {
 
 #about, img {
     height: 400px;
-    max-width: 78%;
+    max-width: 75%;
     display: block;
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 20px;
     border-radius: 10px;
+    
 }
 
 #about-text {
@@ -195,11 +197,12 @@ button:hover {
 
 
 .container {
-    width: 1190px;
+    width: 1180px;
     margin: 70px auto 0 ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
     
 }
 
@@ -211,6 +214,7 @@ button:hover {
     box-sizing: border-box;
     display: inline-block;
     height: 350px;
+    overflow: hidden;
     
 }
 
