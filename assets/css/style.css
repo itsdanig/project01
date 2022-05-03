@@ -137,7 +137,7 @@ h1, h2 {
 }
 
 #about-text {
-    width: 550px;
+    width: 520px;
 }
 
 #main {
@@ -147,12 +147,14 @@ h1, h2 {
     align-items: center;
     justify-content:center;
     display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
 #about-text, h1 {
     color: rgb(38,25,17);
-    font-size: 40px;
+    font-size: 28px;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
@@ -162,10 +164,12 @@ h1, h2 {
 
 #about-text, h5 {
     color: rgb(38,25,17);
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     margin-bottom: 25px;
     letter-spacing: 3px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -176,6 +180,8 @@ h1, h2 {
     font-size: 15px;
     margin-bottom: 35px;
     font-family: Source Sans, Playfair Display;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 button {
@@ -436,5 +442,16 @@ color: rgb(38,25,17);
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #welcome-text {
+        left: 0;
+    }
+
+    #about {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 }
 
+ 
